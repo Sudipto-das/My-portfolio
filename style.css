@@ -4,14 +4,44 @@
     box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-body{
-    background-color: #080808;
-    color: white;
+.container{
+    display: flex;
 }
-.header{
-    width: 100%;
+.sideber{
+    background-color: blueviolet;
+    width:20vw;
+    font-size: 1.2rem;
     height: 100vh;
-    background-image: url(./images/profile.jpg);
-    background-size: cover;
-    background-position: center;
+}
+.sideber nav ul li{
+    list-style: none;
+    padding: 1rem 0;
+}
+.main-content{
+    background-color: darkseagreen;
+    padding: 2rem;
+    width: 80vw;
+    
+}
+.sideber nav {
+    padding: 20px;
+}
+.infocontainer{
+    background-color: aquamarine;
+    height: 45vh;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    
+    height: 45vh;
+    
+}
+.devimg{
+    
+    height: 45vh;
+
+}
+.devimg img{
+    height: 45vh;
 }
