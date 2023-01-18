@@ -4,62 +4,7 @@
     box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.container{
-    display: flex;
+html{
+    font-size: 1.125rem;
 }
-.sideber{
-    background-color: blueviolet;
-    width:300px;
-    font-size: 0.9rem;
-    height: 100vh;
-}
-.sideber nav ul li{
-    list-style: none;
-    padding: 1rem 0;
-}
-.main-content{
-    /* background-color: darkseagreen; */
-    padding: 2rem;
-    width: 90vw;
-    
-}
-.sideber nav {
-    padding: 20px;
-}
-.infocontainer{
-    /* background-color: aquamarine; */
-    height: 45vh;
-    display: flex;
-    justify-content: space-around;
-}
-.devinfo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-.hello{
-    font-size: 20px;
-}
-.hello span{
-    font-size:40px;
-    font-weight: 700;
-}
-.about{
-    font-size: 30px;
-}
-.devimg img{
-    height: 45vh;
-    border-radius: 50%;
-}
-.btn{
-    margin-top: 10px;
-}
-.btn button{
-    padding: 10px;
-    border-radius: 20px;
-    border:none;
-    background-color: blueviolet;
-    color: white;
-    cursor: pointer;
-}
+/*Typography
