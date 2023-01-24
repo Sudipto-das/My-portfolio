@@ -1,10 +1,104 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
+}
+body{
+    background: linear-gradient(#e66465, #9198e5);
 }
 html{
     font-size: 1.125rem;
+    box-sizing: border-box;
 }
-/*Typography
+img{
+    display: block;
+    max-width: 100%;
+    border-radius: 50em;
+    background-color: azure;
+}
+/* Typography */
+h1,h2,h3,p{
+    margin: 0;
+}
+
+h2,h3{
+    line-height: 1rem;
+    margin-bottom: 0.85em;
+}
+p{
+    margin-bottom: 0.85em;
+    
+}
+
+.headinfo{
+    text-align: center;
+    margin-bottom: 2em;
+}
+/* navigation */
+header{
+    
+    margin: 0 auto;
+}
+nav{
+    margin: 0.85em auto;
+    max-width: 760px;
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5em;
+    color: wheat;
+}
+nav a:hover{
+    color: darkblue;
+    
+}
+.about-intro{
+    margin-top: 1em;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+/* buttons */
+.btn{
+    display: flex;
+    justify-content: center;
+    gap:1em;
+    margin-bottom: 2em;
+}
+button{
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(137, 86, 86);
+    
+}
+
+
+
+.my-projects {
+    margin: 1em
+}
+.project-head{
+    margin-bottom: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+}
