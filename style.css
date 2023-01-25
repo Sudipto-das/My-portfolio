@@ -102,3 +102,11 @@ button{
     display: flex;
     flex-direction: column;
 }
+@media (min-width:760px) {
+    .about{
+        flex-direction: row;
+    }
+    .about-intro{
+        padding: 4em;
+    }
+}
