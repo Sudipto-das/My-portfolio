@@ -1,4 +1,15 @@
 
+
+
+$('a[href*="#"]').on('click', function(e) {
+  // console.log('clicked')
+  e.preventDefault();
+  $('html, body').animate({
+    scrollTop: $($(this).attr('href')).offset().top
+  }, 500, 'linear');
+});
+
+
 // Download CV
 
 function downloadPDF(filePath) {

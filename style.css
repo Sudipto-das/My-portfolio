@@ -1,5 +1,9 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+  html {
+    scroll-behavior: smooth;
+  }
+  
 
 *{
     padding: 0;
@@ -8,7 +12,7 @@
     font-family: 'Sofia Sans', sans-serif;
 }
 body{
-    background: linear-gradient(#e66465, #9198e5);
+    background-color:#9198e5 ;
 }
 html{
     font-size: 1.125rem;
@@ -18,7 +22,7 @@ img{
     display: block;
     
     max-width: 100%;
-    border-radius: 50em;
+    border-radius: 6em;
     background-color: azure;
 }
 /* Typography */
@@ -46,12 +50,23 @@ p{
 }
 /* navigation */
 header{
-    
+
     margin: 0 auto;
 }
 nav{
-    margin: 0.85em auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1em 0;
+    width: 100%;
+    background-color: blueviolet;
+    margin: 0;
+}
+.nav-list{
+    margin: 0 auto;
     max-width: 760px;
+    
+    
 }
 
 nav ul{
@@ -96,6 +111,7 @@ button{
     border: none;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgb(137, 86, 86);
+    cursor: pointer;
     
 }
 

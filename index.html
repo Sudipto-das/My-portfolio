@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
   </head>
   <body>
     <header>
       <nav class="nevigation">
+        <div class="nav-list">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">ContactMe</a></li>
-          <li><a href="#">Projects</a></li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#ContactMe">ContactMe</a></li>
+          <li><a href="#projects">Projects</a></li>
         </ul>
+      </div>
       </nav>
       <div class="headinfo">
         <h1>Hello</h1>
-        <h2>I am Web devoloper</h2>
+        <h2>I am Web developer</h2>
       </div>
     </header>
     <div class="container">
-    <section class="about">
+    <section class="about" id="about">
       <div class="devimg">
         <img src="./images/downloadprofile.png" alt="" />
       </div>
@@ -37,38 +41,40 @@
       <button class="dev-cv" id="download-button">Download CV</button>
       <button class="dev-contact" id="contact-button">Contact Me</button>
     </div>
-    <section class="my-projects">
-      <h2 class="project-head">My Projects</h2>
-      <div class="projects">
-        <div class="project">
-          <h2>Responsive Portfolio</h2>
-          <img src="" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eius
-            quisquam repellat commodi, cumque nesciunt perferendis ipsum dolorum
-            tempore. Ullam.
-          </p>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <img src="project1.jpg" alt="Project 1">
+          <div class="project-info">
+            <h3>Shopping Product Page</h3>
+            <p>The project is a product page that fetches data from a live API to display information about various products. The page allows users to browse through a list of products and view details about each product such as its name, description, price, and images. The data for the products is obtained from a live API, which ensures that the information displayed to the user is always up to date.
+
+              The page is designed with a user-friendly interface that is easy to navigate. The layout of the page includes a product image, product details, and an option to add the product to the cart. The user can also view related products and read reviews from other users. The API fetches data in real-time, so any changes made to the product information on the server-side will be immediately reflected on the page.
+              
+              Overall, this project provides a seamless and efficient shopping experience for users who are looking for a specific product. It provides them with all the information they need to make an informed decision about whether or not to purchase the product.</p>
+            <a href="#">View Project</a>
+          </div>
         </div>
-        <div class="project">
-          <h2>Responsive Webpage Design</h2>
-          <img src="" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
-            corporis reiciendis tenetur, nam voluptatum facere sint nulla
-            possimus repellat veniam!
-          </p>
+        <div class="project-card">
+          <img src="project2.jpg" alt="Project 2">
+          <div class="project-info">
+            <h3>Project 2</h3>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#">View Project</a>
+          </div>
         </div>
-        <div class="project">
-          <h2>To-do List Using JavaScript</h2>
-          <img src="" alt="" />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque sed
-            exercitationem repellat perferendis, vero et? Libero debitis
-            inventore cum molestiae.
-          </p>
+        <div class="project-card">
+          <img src="project3.jpg" alt="Project 3">
+          <div class="project-info">
+            <h3>Project 3</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#">View Project</a>
+          </div>
         </div>
       </div>
     </section>
+    
   </div>
   </body>
   <script src="index.js"></script>
